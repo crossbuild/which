@@ -108,7 +108,7 @@ EXAMPLE
 
             alias which 'alias | /usr/bin/which --tty-only --read-alias --show-dot --show-tilde'
 
-       This  will  print  the readable ~/ and ./ when starting which from your
+       This will print the readable ~/ and ./ when starting  which  from  your
        prompt, while still printing the full path when used from a script:
 
             > which q2
@@ -118,9 +118,9 @@ EXAMPLE
 
 
 BUGS
-       The HOME directory is determined by looking for  the  HOME  environment
-       variable,  which  aborts  when this variable doesn't exist.  Which will
-       consider two equivalent directories to be different when  one  of  them
+       The  HOME  directory  is determined by looking for the HOME environment
+       variable, which aborts when this variable doesn't  exist.   Which  will
+       consider  two  equivalent  directories to be different when one of them
        contains a path with a symbolic link.
 
 AUTHOR

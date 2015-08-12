@@ -36,7 +36,7 @@ the full path of each command used inside of those.
 Report bugs to <which-bugs@gnu.org>.
 
 >which --version
-GNU which v2.20, Copyright (C) 1999 - 2008 Carlo Wood.
+GNU which v2.21, Copyright (C) 1999 - 2015 Carlo Wood.
 GNU which comes with ABSOLUTELY NO WARRANTY;
 This program is free software; your freedom to use, change
 and distribute this program is protected by the GPL.
@@ -152,9 +152,9 @@ which: no xxx in (.)
 which: no xxx in (.)
 
 >id
-uid=1000(carlo) gid=1000(carlo) groups=20(dialout),24(cdrom),25(floppy),29(audio),44(video),46(plugdev),106(netdev),109(powerdev),115(kvm),1000(carlo)
+uid=1000(carlo) gid=1000(carlo) groups=1000(carlo),24(cdrom),25(floppy),29(audio),30(dip),44(video),46(plugdev),50(staff),104(scanner),107(bluetooth),109(netdev),122(lpadmin)
 >ls -l xxx
--rwx------ 1 root carlo 0 2008-08-06 17:22 xxx
+-rwx------ 1 root carlo 0 Mar 20 17:30 xxx
 >su
 >chmod 750 xxx
 >chgrp carlo xxx
